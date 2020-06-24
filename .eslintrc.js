@@ -1,16 +1,17 @@
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   parserOptions: {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
   extends: [
-    // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-    'standard',
-    // https://github.com/vuejs/eslint-plugin-vue,
-    'plugin:vue/recommended',
-    'plugin:jest/recommended',
-    'plugin:jest/style'
+    //// https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
+    //'standard',
+    //// https://github.com/vuejs/eslint-plugin-vue,
+    //'plugin:vue/recommended',
+    //'plugin:jest/recommended',
+    //'plugin:jest/style'
   ],
   plugins: ['jest'],
   // add your custom rules here
