@@ -13,6 +13,7 @@ import sections from './sections'
 import sectionsExpansionPanels from './sections-expansion-panels'
 import sectionsTab from './sections-tabs'
 import editableArray from './editable-array'
+import editableArrayWithSubschemes from './editable-array-with-subschemes'
 import prefilledArrays from './prefilled-arrays'
 import defaultValues from './default-values'
 import classes from './classes'
@@ -42,6 +43,7 @@ const examples = [
   sectionsExpansionPanels,
   sectionsTab,
   editableArray,
+  editableArrayWithSubschemes,
   prefilledArrays,
   defaultValues,
   classes,
